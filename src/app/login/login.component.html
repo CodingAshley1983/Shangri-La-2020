@@ -1,0 +1,33 @@
+<div id="firstpage-main">
+    <div class="firstpage-content">
+        <h2 class="not-bold" style="color:hotpink;">Welcome to your <strong>Shangri-La 2020 </strong>app!</h2>
+        <h4>Browse stages above to find new, and favorite bands</h4>
+        <p>First time user? Log in now to access myLineup </p>
+        <p>myLineup is a personalized, shareable lineup of the shows you don't want to miss!</p>
+        <p>Login below in order to access your myLineup</p>
+        <div noValidate onSubmit={this.onSubmit}>
+            <input onChange={this.onChange}
+                value="Email"
+                error={errors.email}
+                id="email"
+                type="email" placeholder="Email"
+                class="mr-sm-2"
+            />
+            <br>
+            <br>
+            <input
+                onChange={this.onChange}
+                value="Password"
+                error={errors.password}
+                id="password"
+                type="password"
+                placeholder="Password"
+                class="mr-sm-2"
+            />
+            <br>
+            <br>
+            <Button type="button" class="btn btn-outline-success" id="log-in-button" variant="outline-success" type="submit" onClick={this.handleLogin}>Log In</Button>
+            <a href="/register" class="btn btn-outline-primary" id="create-account-button">Create Account</a>
+        </div>
+    </div>
+  </div>

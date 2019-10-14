@@ -1,0 +1,16 @@
+#playing-now-display{
+float:left;
+margin-left:10%;
+border: #27c275 2px solid;
+}
+/* .overlay{
+  background:black;
+
+} */
+.carousel-image{
+  width: 248px;
+  height:222px;
+}
+.carousel-indicator{
+  color:blue;
+}

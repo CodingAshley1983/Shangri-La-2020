@@ -1,0 +1,25 @@
+
+#schedule-div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+#schedule{
+  display:flex;
+  margin: 0 auto;
+  margin-top:10px;
+  justify-content: center;
+  text-align: center;
+  width:82%;
+
+
+}
+#show-bands{
+  margin-top: 15px;
+}
+
+#band-name{
+  justify-content: center;
+
+}
